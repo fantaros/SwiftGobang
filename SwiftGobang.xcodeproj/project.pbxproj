@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		898CA22B1CBE850300CC9A2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898CA22A1CBE850300CC9A2D /* AppDelegate.swift */; };
+		898CA22D1CBE850300CC9A2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898CA22C1CBE850300CC9A2D /* ViewController.swift */; };
+		898CA2301CBE850300CC9A2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 898CA22E1CBE850300CC9A2D /* Main.storyboard */; };
+		898CA2321CBE850300CC9A2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 898CA2311CBE850300CC9A2D /* Assets.xcassets */; };
+		898CA2351CBE850300CC9A2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 898CA2331CBE850300CC9A2D /* LaunchScreen.storyboard */; };
+		898CA2401CBE850300CC9A2D /* SwiftGobangTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898CA23F1CBE850300CC9A2D /* SwiftGobangTests.swift */; };
+		898CA24B1CBE850300CC9A2D /* SwiftGobangUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898CA24A1CBE850300CC9A2D /* SwiftGobangUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		898CA23C1CBE850300CC9A2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 898CA21F1CBE850300CC9A2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 898CA2261CBE850300CC9A2D;
+			remoteInfo = SwiftGobang;
+		};
+		898CA2471CBE850300CC9A2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 898CA21F1CBE850300CC9A2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 898CA2261CBE850300CC9A2D;
+			remoteInfo = SwiftGobang;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		898CA2271CBE850300CC9A2D /* SwiftGobang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftGobang.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		898CA22A1CBE850300CC9A2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		898CA22C1CBE850300CC9A2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		898CA22F1CBE850300CC9A2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		898CA2311CBE850300CC9A2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		898CA2341CBE850300CC9A2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		898CA2361CBE850300CC9A2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		898CA23B1CBE850300CC9A2D /* SwiftGobangTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftGobangTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		898CA23F1CBE850300CC9A2D /* SwiftGobangTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGobangTests.swift; sourceTree = "<group>"; };
+		898CA2411CBE850300CC9A2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		898CA2461CBE850300CC9A2D /* SwiftGobangUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftGobangUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		898CA24A1CBE850300CC9A2D /* SwiftGobangUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGobangUITests.swift; sourceTree = "<group>"; };
+		898CA24C1CBE850300CC9A2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		898CA2241CBE850300CC9A2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		898CA2381CBE850300CC9A2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		898CA2431CBE850300CC9A2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		898CA21E1CBE850300CC9A2D = {
+			isa = PBXGroup;
+			children = (
+				898CA2291CBE850300CC9A2D /* SwiftGobang */,
+				898CA23E1CBE850300CC9A2D /* SwiftGobangTests */,
+				898CA2491CBE850300CC9A2D /* SwiftGobangUITests */,
+				898CA2281CBE850300CC9A2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		898CA2281CBE850300CC9A2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				898CA2271CBE850300CC9A2D /* SwiftGobang.app */,
+				898CA23B1CBE850300CC9A2D /* SwiftGobangTests.xctest */,
+				898CA2461CBE850300CC9A2D /* SwiftGobangUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		898CA2291CBE850300CC9A2D /* SwiftGobang */ = {
+			isa = PBXGroup;
+			children = (
+				898CA22A1CBE850300CC9A2D /* AppDelegate.swift */,
+				898CA22C1CBE850300CC9A2D /* ViewController.swift */,
+				898CA22E1CBE850300CC9A2D /* Main.storyboard */,
+				898CA2311CBE850300CC9A2D /* Assets.xcassets */,
+				898CA2331CBE850300CC9A2D /* LaunchScreen.storyboard */,
+				898CA2361CBE850300CC9A2D /* Info.plist */,
+			);
+			path = SwiftGobang;
+			sourceTree = "<group>";
+		};
+		898CA23E1CBE850300CC9A2D /* SwiftGobangTests */ = {
+			isa = PBXGroup;
+			children = (
+				898CA23F1CBE850300CC9A2D /* SwiftGobangTests.swift */,
+				898CA2411CBE850300CC9A2D /* Info.plist */,
+			);
+			path = SwiftGobangTests;
+			sourceTree = "<group>";
+		};
+		898CA2491CBE850300CC9A2D /* SwiftGobangUITests */ = {
+			isa = PBXGroup;
+			children = (
+				898CA24A1CBE850300CC9A2D /* SwiftGobangUITests.swift */,
+				898CA24C1CBE850300CC9A2D /* Info.plist */,
+			);
+			path = SwiftGobangUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		898CA2261CBE850300CC9A2D /* SwiftGobang */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 898CA24F1CBE850300CC9A2D /* Build configuration list for PBXNativeTarget "SwiftGobang" */;
+			buildPhases = (
+				898CA2231CBE850300CC9A2D /* Sources */,
+				898CA2241CBE850300CC9A2D /* Frameworks */,
+				898CA2251CBE850300CC9A2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftGobang;
+			productName = SwiftGobang;
+			productReference = 898CA2271CBE850300CC9A2D /* SwiftGobang.app */;
+			productType = "com.apple.product-type.application";
+		};
+		898CA23A1CBE850300CC9A2D /* SwiftGobangTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 898CA2521CBE850300CC9A2D /* Build configuration list for PBXNativeTarget "SwiftGobangTests" */;
+			buildPhases = (
+				898CA2371CBE850300CC9A2D /* Sources */,
+				898CA2381CBE850300CC9A2D /* Frameworks */,
+				898CA2391CBE850300CC9A2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				898CA23D1CBE850300CC9A2D /* PBXTargetDependency */,
+			);
+			name = SwiftGobangTests;
+			productName = SwiftGobangTests;
+			productReference = 898CA23B1CBE850300CC9A2D /* SwiftGobangTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		898CA2451CBE850300CC9A2D /* SwiftGobangUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 898CA2551CBE850300CC9A2D /* Build configuration list for PBXNativeTarget "SwiftGobangUITests" */;
+			buildPhases = (
+				898CA2421CBE850300CC9A2D /* Sources */,
+				898CA2431CBE850300CC9A2D /* Frameworks */,
+				898CA2441CBE850300CC9A2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				898CA2481CBE850300CC9A2D /* PBXTargetDependency */,
+			);
+			name = SwiftGobangUITests;
+			productName = SwiftGobangUITests;
+			productReference = 898CA2461CBE850300CC9A2D /* SwiftGobangUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		898CA21F1CBE850300CC9A2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = fantaros;
+				TargetAttributes = {
+					898CA2261CBE850300CC9A2D = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					898CA23A1CBE850300CC9A2D = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 898CA2261CBE850300CC9A2D;
+					};
+					898CA2451CBE850300CC9A2D = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 898CA2261CBE850300CC9A2D;
+					};
+				};
+			};
+			buildConfigurationList = 898CA2221CBE850300CC9A2D /* Build configuration list for PBXProject "SwiftGobang" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 898CA21E1CBE850300CC9A2D;
+			productRefGroup = 898CA2281CBE850300CC9A2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				898CA2261CBE850300CC9A2D /* SwiftGobang */,
+				898CA23A1CBE850300CC9A2D /* SwiftGobangTests */,
+				898CA2451CBE850300CC9A2D /* SwiftGobangUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		898CA2251CBE850300CC9A2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				898CA2351CBE850300CC9A2D /* LaunchScreen.storyboard in Resources */,
+				898CA2321CBE850300CC9A2D /* Assets.xcassets in Resources */,
+				898CA2301CBE850300CC9A2D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		898CA2391CBE850300CC9A2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		898CA2441CBE850300CC9A2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		898CA2231CBE850300CC9A2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				898CA22D1CBE850300CC9A2D /* ViewController.swift in Sources */,
+				898CA22B1CBE850300CC9A2D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		898CA2371CBE850300CC9A2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				898CA2401CBE850300CC9A2D /* SwiftGobangTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		898CA2421CBE850300CC9A2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				898CA24B1CBE850300CC9A2D /* SwiftGobangUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		898CA23D1CBE850300CC9A2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 898CA2261CBE850300CC9A2D /* SwiftGobang */;
+			targetProxy = 898CA23C1CBE850300CC9A2D /* PBXContainerItemProxy */;
+		};
+		898CA2481CBE850300CC9A2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 898CA2261CBE850300CC9A2D /* SwiftGobang */;
+			targetProxy = 898CA2471CBE850300CC9A2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		898CA22E1CBE850300CC9A2D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				898CA22F1CBE850300CC9A2D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		898CA2331CBE850300CC9A2D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				898CA2341CBE850300CC9A2D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		898CA24D1CBE850300CC9A2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		898CA24E1CBE850300CC9A2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		898CA2501CBE850300CC9A2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwiftGobang/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.fantaros.SwiftGobang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		898CA2511CBE850300CC9A2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwiftGobang/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.fantaros.SwiftGobang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		898CA2531CBE850300CC9A2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwiftGobangTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.fantaros.SwiftGobangTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftGobang.app/SwiftGobang";
+			};
+			name = Debug;
+		};
+		898CA2541CBE850300CC9A2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwiftGobangTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.fantaros.SwiftGobangTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftGobang.app/SwiftGobang";
+			};
+			name = Release;
+		};
+		898CA2561CBE850300CC9A2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwiftGobangUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.fantaros.SwiftGobangUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwiftGobang;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		898CA2571CBE850300CC9A2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwiftGobangUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.fantaros.SwiftGobangUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwiftGobang;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		898CA2221CBE850300CC9A2D /* Build configuration list for PBXProject "SwiftGobang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				898CA24D1CBE850300CC9A2D /* Debug */,
+				898CA24E1CBE850300CC9A2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		898CA24F1CBE850300CC9A2D /* Build configuration list for PBXNativeTarget "SwiftGobang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				898CA2501CBE850300CC9A2D /* Debug */,
+				898CA2511CBE850300CC9A2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		898CA2521CBE850300CC9A2D /* Build configuration list for PBXNativeTarget "SwiftGobangTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				898CA2531CBE850300CC9A2D /* Debug */,
+				898CA2541CBE850300CC9A2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		898CA2551CBE850300CC9A2D /* Build configuration list for PBXNativeTarget "SwiftGobangUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				898CA2561CBE850300CC9A2D /* Debug */,
+				898CA2571CBE850300CC9A2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 898CA21F1CBE850300CC9A2D /* Project object */;
+}
