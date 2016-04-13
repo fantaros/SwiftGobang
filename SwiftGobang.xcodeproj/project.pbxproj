@@ -14,9 +14,9 @@
 		898CA2401CBE850300CC9A2D /* SwiftGobangTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898CA23F1CBE850300CC9A2D /* SwiftGobangTests.swift */; };
 		898CA24B1CBE850300CC9A2D /* SwiftGobangUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898CA24A1CBE850300CC9A2D /* SwiftGobangUITests.swift */; };
 		898CA25D1CBE859B00CC9A2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898CA25C1CBE859B00CC9A2D /* ViewController.swift */; };
-		898CA2601CBE85DE00CC9A2D /* CheseBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898CA25F1CBE85DE00CC9A2D /* CheseBoard.swift */; };
-		898CA2621CBE85E900CC9A2D /* Chess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898CA2611CBE85E900CC9A2D /* Chess.swift */; };
-		898CA2641CBE85FD00CC9A2D /* GobangAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898CA2631CBE85FD00CC9A2D /* GobangAI.swift */; };
+		898CA2691CBE87B900CC9A2D /* CheseBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898CA2661CBE87B900CC9A2D /* CheseBoard.swift */; };
+		898CA26A1CBE87B900CC9A2D /* Chess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898CA2671CBE87B900CC9A2D /* Chess.swift */; };
+		898CA26B1CBE87B900CC9A2D /* GobangAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898CA2681CBE87B900CC9A2D /* GobangAI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,9 +50,9 @@
 		898CA24A1CBE850300CC9A2D /* SwiftGobangUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGobangUITests.swift; sourceTree = "<group>"; };
 		898CA24C1CBE850300CC9A2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		898CA25C1CBE859B00CC9A2D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		898CA25F1CBE85DE00CC9A2D /* CheseBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CheseBoard.swift; path = gobang/CheseBoard.swift; sourceTree = "<group>"; };
-		898CA2611CBE85E900CC9A2D /* Chess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chess.swift; sourceTree = "<group>"; };
-		898CA2631CBE85FD00CC9A2D /* GobangAI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GobangAI.swift; sourceTree = "<group>"; };
+		898CA2661CBE87B900CC9A2D /* CheseBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheseBoard.swift; sourceTree = "<group>"; };
+		898CA2671CBE87B900CC9A2D /* Chess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chess.swift; sourceTree = "<group>"; };
+		898CA2681CBE87B900CC9A2D /* GobangAI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GobangAI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +103,9 @@
 		898CA2291CBE850300CC9A2D /* SwiftGobang */ = {
 			isa = PBXGroup;
 			children = (
+				898CA2651CBE87B900CC9A2D /* gobang */,
 				898CA25B1CBE859B00CC9A2D /* controllers */,
 				898CA2591CBE853B00CC9A2D /* storyboard */,
-				898CA2581CBE850F00CC9A2D /* gobang */,
 				898CA22A1CBE850300CC9A2D /* AppDelegate.swift */,
 				898CA2311CBE850300CC9A2D /* Assets.xcassets */,
 				898CA2361CBE850300CC9A2D /* Info.plist */,
@@ -131,16 +131,6 @@
 			path = SwiftGobangUITests;
 			sourceTree = "<group>";
 		};
-		898CA2581CBE850F00CC9A2D /* gobang */ = {
-			isa = PBXGroup;
-			children = (
-				898CA25F1CBE85DE00CC9A2D /* CheseBoard.swift */,
-				898CA2611CBE85E900CC9A2D /* Chess.swift */,
-				898CA2631CBE85FD00CC9A2D /* GobangAI.swift */,
-			);
-			name = gobang;
-			sourceTree = "<group>";
-		};
 		898CA2591CBE853B00CC9A2D /* storyboard */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +146,16 @@
 				898CA25C1CBE859B00CC9A2D /* ViewController.swift */,
 			);
 			path = controllers;
+			sourceTree = "<group>";
+		};
+		898CA2651CBE87B900CC9A2D /* gobang */ = {
+			isa = PBXGroup;
+			children = (
+				898CA2661CBE87B900CC9A2D /* CheseBoard.swift */,
+				898CA2671CBE87B900CC9A2D /* Chess.swift */,
+				898CA2681CBE87B900CC9A2D /* GobangAI.swift */,
+			);
+			path = gobang;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,9 +289,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				898CA2621CBE85E900CC9A2D /* Chess.swift in Sources */,
-				898CA2641CBE85FD00CC9A2D /* GobangAI.swift in Sources */,
-				898CA2601CBE85DE00CC9A2D /* CheseBoard.swift in Sources */,
+				898CA26A1CBE87B900CC9A2D /* Chess.swift in Sources */,
+				898CA26B1CBE87B900CC9A2D /* GobangAI.swift in Sources */,
+				898CA2691CBE87B900CC9A2D /* CheseBoard.swift in Sources */,
 				898CA25D1CBE859B00CC9A2D /* ViewController.swift in Sources */,
 				898CA22B1CBE850300CC9A2D /* AppDelegate.swift in Sources */,
 			);
@@ -518,6 +518,7 @@
 				898CA2511CBE850300CC9A2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		898CA2521CBE850300CC9A2D /* Build configuration list for PBXNativeTarget "SwiftGobangTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +527,7 @@
 				898CA2541CBE850300CC9A2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		898CA2551CBE850300CC9A2D /* Build configuration list for PBXNativeTarget "SwiftGobangUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +536,7 @@
 				898CA2571CBE850300CC9A2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
