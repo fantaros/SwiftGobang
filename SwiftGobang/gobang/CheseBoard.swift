@@ -7,3 +7,10 @@
 //
 
 import Foundation
+
+enum ChessType : Int {
+    case None = 0;
+    case Black = 1;
+    case White = 2;
+}
+

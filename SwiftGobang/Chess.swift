@@ -7,3 +7,7 @@
 //
 
 import Foundation
+
+protocol Chess {
+    var chessName : String {get set}
+}
